@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav-item a:hover{
+  color: rgb(49, 207, 255) !important;
+}
+.nav-item a{
+  font-weight: bold !important;
+}
+nav.navbar{
+  background:#fff !important;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  color: rgb(187, 187, 187) !important;
+}
+/* .navbar  a::after{
+   content: "";
+   border-bottom: 10px solid red;
+   width: 40px;
+   background-color:#3498db ;
+} */
+/* .navbar a:hover{
+  color: #3498db !important;
+  border-bottom: 5px solid #3498db !important;
+  transition: 0.5s  ease-in-out ;
+} */
+.menu_active{
+  color: #3498db !important;
+ 
+}
+
+.header h2{
+  font-size: 24px;
+}
+.home_img{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: right;
+}
+.animated{
+  animation: updown 2s ease-in-out infinite alternate-reverse both;
+}
+.btn-start a{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 1px solid #3498db;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: #3498db;
+  transition: 0.5s all ease-in-out;
+}
+.btn-start a:hover{
+  background: #3498db;
+  color: #fff;
+}
+.headerstyle{
+  /* border: 1px solid red; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headerstyle h2{
+  font-size: 24px;
+} 
+.headerstyle h1{
+  font-weight: bold;
+}
+.headerstyle  b{
+  color: #3498db;
+}
+@-webkit-keyframes updown{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes updown{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.home_img img{
+ width: 100%;
+}
+.img-style{
+  height: 100%;
+  width: 100%;
+}
+.footer{
+  /* background: rgb(248, 248, 248); */
+  margin-bottom: auto;
+}
